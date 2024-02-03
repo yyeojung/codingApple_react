@@ -3,3 +3,12 @@
     height: 300px;
     background: url(./shoes1.jpg) center / cover no-repeat;
 }
+
+/*애니메이션*/
+.start {
+    opacity: 0;
+}
+.end {
+    opacity: 1;
+    transition: opacity 1s;
+}
